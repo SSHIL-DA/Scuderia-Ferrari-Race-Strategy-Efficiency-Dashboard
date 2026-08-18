@@ -1,10 +1,10 @@
-# 🏎️ Scuderia Ferrari Performance & Strategic Insights Dashboard
+#  Scuderia Ferrari Performance & Strategic Insights Dashboard
 
 An interactive, multi-page Power BI dashboard designed to analyze Scuderia Ferrari's performance in Formula 1 (2010–Present). Moving beyond simple points accumulation, this report delivers a high-level **Performance & Reliability Audit**, measuring race execution efficiency, driver pace progression, and spatial dominance across global circuits.
 
 ---
 
-## 📌 Project Overview & Key Questions
+##  Project Overview & Key Questions
 
 The primary objective of this project is to answer high-level strategic questions for race analysts and executive stakeholders:
 1. **Execution Efficiency:** How effectively does the team convert front-row qualifying starts (`Grid <= 3`) into podium finishes (`Position <= 3`)?
@@ -14,7 +14,7 @@ The primary objective of this project is to answer high-level strategic question
 
 ---
 
-## 🛠️ Key Features & Technical Highlights
+##  Key Features & Technical Highlights
 
 * **Data Modeling & Transformation:** Cleaned and structured relational F1 data tables (`Results`, `Races`, `Drivers`, `Constructors`, and `Status`).
 * **Custom DAX Measures:** Formulated advanced DAX calculations using `CALCULATE`, `FILTER`, `DIVIDE`, and conditional logic to evaluate conditional KPIs without division-by-zero errors.
@@ -23,7 +23,7 @@ The primary objective of this project is to answer high-level strategic question
 
 ---
 
-## 📑 Dashboard Architecture
+##  Dashboard Architecture
 
 ### Page 1: Overview & Yearly Trajectory
 * **Macro Metrics:** Total points, overall race wins, and total podiums.
@@ -38,7 +38,7 @@ The primary objective of this project is to answer high-level strategic question
 
 ---
 
-## 📐 Key DAX Formula Examples
+##  Key DAX Formula Examples
 
 **Podium Execution Rate (%)**
 ```dax
